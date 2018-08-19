@@ -1,0 +1,358 @@
+/*
+Theme Name: COSCUP-en
+Description: Theme for COSCUP
+Version: 1.0
+Author: Handlino Inc.
+Author URI: http://handlino.com/
+
+*/
+
+/* reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+body {
+	background: #D2FFA1 url(images/bg.gif) top left repeat-x;
+	color: #252525;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	}
+
+a:link, a:visited {
+	color: #389F2D;
+	text-decoration: none;
+	}
+
+a:hover, a:active {
+	color: #A2D79C;
+	text-decoration: underline;
+	}
+
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+	}
+
+/* ~~~~~~~~~~ HEATER STYLE ~~~~~~~~~~ */
+
+#header {
+	background: #fff url(images/ht.gif) top repeat-x;
+	position: relative;
+	}
+
+#header #sb {
+	background: url(images/hb.gif) bottom no-repeat;
+	padding: 6px 40px 38px;
+	height: 133px;
+	}
+
+#languages {
+	background: url(images/lan-l.gif) left no-repeat;
+	float: right;
+	padding-left: 20px;
+	font-size: 1.2em;
+	color: #B3E6AD;
+	line-height: 2;
+	}
+
+#languages #r {
+	background: #577F2A url(images/lan-r.gif) right no-repeat;
+	height: 28px;
+	margin-right: 16px;
+	padding-right: 20px;
+	}
+
+#languages #r span {
+	font-size: 0.8em;
+	padding: 0 3px;
+	}
+
+#languages #r a {
+	color: #FFFFFF;
+	}
+
+#header h1,#header p#slogan {
+	text-indent: -9999px;
+	}
+
+#header p.date{
+		color:#333;
+		line-height:48px;
+		font-size:48px;
+		float:right;
+		margin-top:-80px;
+}
+#header p.date span.year{
+		font-size:24px;
+}
+#header p.venue{
+		color:#555;
+		font-size:14px;
+		margin-top:-28px;
+		line-height:16px;
+		float:right;
+		text-align:right;
+}
+
+#header h1 a {
+	background: transparent url(images/h1.png) top left no-repeat;
+	display: block;
+	height: 83px;
+	width: 319px;
+	}
+
+.clear {
+	clear: both;
+	}
+
+/* ~~~~~~~~~~ NAV STYLE ~~~~~~~~~~ */
+
+#nav{
+	margin-left: 40px;
+	}
+
+#nav li {
+	float: left;
+	font-variant: small-caps;
+	font-size: 1.4em;
+	font-weight: bold;
+	display: block;
+	padding-left: 20px;
+	}
+
+#nav li a {
+	color: #fff;
+	height: 28px;
+	line-height: 28px;
+	padding-right: 20px;
+	display: block;
+	}
+
+
+#nav li.current_page_item a, #nav li.current_page_parent a {
+	color: #000;
+	background: url(images/lan-l.gif) right no-repeat #fff;
+	}
+#nav li.current_page_item, #nav li.current_page_parent {
+	background: url(images/lan-r.gif) left no-repeat #fff;
+	}
+
+#nav li.current_page_parent a {
+	color: #666;
+	}
+
+/* ~~~~~~~~~~ BANNER STYLE ~~~~~~~~~~ */
+
+#banner {
+	margin-bottom: 28px;
+	}
+/* ~~~~~~~~~~ MAIN STYLE ~~~~~~~~~~ */
+
+#main {
+	background: #fff;
+	margin-bottom: 16px;
+	}
+
+#main-sb {
+	background: url(images/main-sb.gif) bottom no-repeat;
+	padding: 30px 40px 100px;
+	font-size: 13px;
+	min-height: 100px;
+	}
+
+#content {
+	float: left;
+	width: 540px;
+	font-size: 15px;
+	}
+
+#content h4 {
+	font-size: 1.6em;
+	margin-bottom: 1em;
+	}
+
+#content p {
+	line-height: 1.6;
+	margin:0pt 0pt 1.6em;
+	}
+
+#content ul {
+	list-style-type: disc;
+	list-style-position: outside;
+	margin: 1em 0 1em 2em;
+}
+#content li {
+    margin: 1em 0;
+}
+#content dt{
+	margin: 1em 0 0.3em 1em;
+	font-weight:700;
+}
+#content dd{
+	margin-left: 2em;
+	line-height: 1.6;
+	}
+
+#sponsor {
+	float: right;
+	width: 140px;
+	}
+
+#sponsor h3 {
+	color: #94CC58;
+	font-variant: small-caps;
+	font-size: 1.4em;
+	margin-bottom: 24px;
+	}
+
+#sponsor li {
+	background: url(images/level-bg.gif) top no-repeat;
+	margin-top: 24px;
+	}
+
+#sponsor li p {
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 2;
+	padding-left: 8px;
+	border-bottom: 1px dotted #CACACA;
+	padding-bottom: 2px;
+	margin-bottom: 5px;
+	}
+
+#sponsor li a {
+	margin: 0;
+	display: block;
+	}
+
+/* ~~~~~~~~~~ SUBNAV STYLE ~~~~~~~~~~ */
+
+#content .subnav {
+	list-style-type: none;
+	margin: 0 0 30px;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+	}
+
+#content .subnav li {
+	margin: 0;
+    float: left;
+}
+#content .subnav a {
+	font-weight: bold;
+	color: #577F2A;
+	display: block;
+	padding: 3px 5px;
+	margin: 0 10px;
+	text-decoration: none;
+	}
+
+#content .subnav a:hover {
+	text-decoration: underline;
+	}
+
+#content .subnav li.current_page_item a {
+	background: #ccc;
+	color: #000;
+    }
+
+/* ~~~~~~~~~~ FOOTER STYLE ~~~~~~~~~~ */
+
+#footer {
+	padding: 0 40px;
+	font-size: 1.2em;
+	color: #77894B;
+	text-align: center;
+	margin-bottom: 80px;
+	}
+
+#footer span {
+	padding: 0 8px;
+	}
+
+#footer a {
+	padding: 0 3px;
+	text-decoration: underline;
+	}
+
+#footer a:hover {
+	background: #389F2D;
+	color: #ffffff;
+	text-decoration: none;
+	}
+
+#content table.program {
+	border-collapse: separate;
+}
+#content table.program th,
+#content table.program td {
+	border-bottom: 1px solid #999;
+	padding: 5px;
+	line-height: 1.5;
+}
+#content table.program td.break {
+	background-color: #f1f1f1;
+	color: #666;
+	text-align: center;
+}
+#content table.program th {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#content h3, #content h2 {
+	font-size: 1.5em;
+	margin: 0.6em 0;
+}

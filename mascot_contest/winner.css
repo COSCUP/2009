@@ -1,0 +1,74 @@
+body {
+	font-family: Arial;
+	font-size: 10pt;
+	margin: 10px 0 0;
+	background: #fff url(bg/footer.jpg) no-repeat fixed center bottom;
+}
+a{
+	text-decoration: none;
+	color: #389F2D;
+}
+a:hover{
+	color: #A2D79C;
+}
+#main {
+	background: url(bg/win_header.jpg) no-repeat;
+	width: 950px;
+	margin: 0 auto;
+}
+#menu a{
+	display: block;
+	height: 50px;
+	width: 160px;
+	text-indent: -999px;
+	float: left;
+}
+#top{
+	display: block;
+	width: 950px;
+	height: 209px;
+	text-indent: -999px;
+	background: url(bg/win_top.jpg) no-repeat;
+}
+#content-wrapper {
+	position: relative;height: 1%;/* fix ie6 */
+}
+html>body #content-wrapper ,html>body #content {
+	height: auto;/* fix ie6 */
+} 
+#left{
+	background: url(bg/win_left.jpg) no-repeat;
+	padding: 0 40px;
+	/*position: relative;height: 1%;/* fix ie6 */
+	float: left;
+	width: 640px;
+	height:950px;
+	overflow: hidden;
+}
+#right{
+	background: url(bg/win_right.jpg) no-repeat;
+	float: right;
+	width: 230px;
+	padding-top: 100px;
+}
+#uploadbutton{
+	display: block;
+	background: url(bg/upload.jpg);
+	width: 230px; height: 32px;
+	text-indent: -9999px;
+}
+#uploadbutton:hover{background: url(bg/upload_f2.jpg);}
+#footer{
+	clear: both;
+	font-size: 9pt;
+	color: #666;
+	text-align: center;
+	/*background: url(bg/footer.jpg) no-repeat center bottom;*/
+	height: 50px;
+}
+.clear{
+	clear:both;
+}
+h1, h3{
+	color: #171;
+}
